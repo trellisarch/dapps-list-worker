@@ -1,0 +1,14 @@
+name = "dapps-list"
+main = "src/index.js"
+compatibility_date = "2025-05-20"
+
+routes = [
+  { pattern = "dapps-list.radix.dev", custom_domain = true }
+]
+
+[[kv_namespaces]]
+binding = "DAPPS_LIST_KV"
+id = "7dd0c0ce794e433fbf2ec39460f7490d"
+preview_id = "c103e20829ce4f87850fcb4553983f30"
+
+[env.dev]
